@@ -8,7 +8,7 @@ setuptools.setup(
     description="Algorithm of Stochastic Gradient Hamiltonian Monte Carlo",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=['sghmc'],
+    packages=['algorithm'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
