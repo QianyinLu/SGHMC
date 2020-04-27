@@ -1,7 +1,7 @@
 ## This is a description of the package organization.
 This package includes several different parts. 
 
-Package is inside of the Algorithm part. To implement the package, 
+Package is inside of the Algorithm part. To implement the package,   
 !pip install --index-url https://test.pypi.org/simple/ mypackage  
 from algorithm import sghmc  
 sghmc.sghmc() is our algorithm.
