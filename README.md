@@ -2,7 +2,7 @@
 This package includes several different parts. 
 
 Package is inside of the Algorithm part. To implement the package,   
-!pip install --index-url https://test.pypi.org/simple/ mypackage  
+!pip install --index-url https://test.pypi.org/simple/ presnie  
 from algorithm import sghmc  
 sghmc.sghmc() is our algorithm.
 
