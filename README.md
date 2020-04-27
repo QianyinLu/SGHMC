@@ -2,11 +2,13 @@
 This package includes several different parts. 
 
 Package is inside of the Algorithm part. To implement the package, 
-!pip install --index-url https://test.pypi.org/simple/ mypackage
-from algorithm import sghmc
+!pip install --index-url https://test.pypi.org/simple/ mypackage  
+from algorithm import sghmc  
 sghmc.sghmc() is our algorithm.
 
-test includes some test cases for the package.
+optimization is a jit and numba version of SGHMC algorithm 
+
+test includes some test cases for the package
 
 comparison includes our result for implementing SGLD, SGD and SGHMC
 
