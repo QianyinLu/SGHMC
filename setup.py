@@ -2,7 +2,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name="SGHMC", 
+    name="presnie", 
     version="0.1",
     author="Qianyin Lu, Zewen Zhang",
     description="Algorithm of Stochastic Gradient Hamiltonian Monte Carlo",
