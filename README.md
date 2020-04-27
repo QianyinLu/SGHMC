@@ -1,17 +1,20 @@
-## This is a description of the package organization.
+## Implementation of SGHMC
+Reference to this paper: https://tqchen.com/data/pdf/SGHMC-ICML14.pdf  
+
 This package includes several different parts. 
 
-Package is inside of the Algorithm part. To implement the package,   
+The Package is inside of the Algorithm part. To implement the package,   
 !pip install --index-url https://test.pypi.org/simple/ presnie  
 from algorithm import sghmc  
 sghmc.sghmc() is our algorithm.
 
-optimization is a jit and numba version of SGHMC algorithm 
+Optimization is a jit and numba version of SGHMC algorithm 
 
-test includes some test cases for the package
+Test includes a test case for the package
 
-comparison includes our result for implementing SGLD, SGD and SGHMC
+Comparison includes our result for implementing SGLD, SGD and SGHMC. It's an attempted replicate of original author's figure 4.  
 
-simulation includes a simulation data set to test for different HMC dynamics 
+Simulation includes a simulation data set to test for different HMC dynamics. It's an attempted replicate of original author's figure 2.  
 
-real data is a SGHMC implementation on real data
+Real data is a SGHMC implementation on real data. This folder includes the dataset from 
+https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
